@@ -109,7 +109,7 @@
             <h2>¡Cotiza tu embarcación!</h2>
         </div>
 
-        <form action="index.php" method="POST">
+        <form action="correo.php" method="POST">
 
 
             <div class="item datos">
@@ -141,7 +141,7 @@
                     <input type="text" name="telefono" placeholder="Ej: +56 9 9475 8427" />
                 </div>
                 <div class="btn ">
-                    <button type="submit " href="/ ">COTIZAR</button>
+                    <button type="submit " href='/' name='enviar'>COTIZAR</button>
                 </div>
             </div>
             <div class="item links">
