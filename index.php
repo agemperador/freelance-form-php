@@ -22,3 +22,5 @@ $para = 'emperadoragustin@gmail.com'
 $asunto = 'Mensaje de prueba desde form'
 
 mail($para, $asunto,utf8_decode($lugar), $header)
+
+?>
