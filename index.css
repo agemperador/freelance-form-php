@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.formulario {
+    margin: auto;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.item {
+    align-items: center;
+    display: flex;
+    padding: 10px 10px;
+    margin: 0px 10px 0 20px;
+    box-shadow: 0 3px 10px 0px #666;
+    border-top: 3px solid #00246c;
+}
+
+.datos {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.nombre {
+    flex-direction: column;
+    margin-top: 15px;
+    width: 100%;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.nombre input {
+    margin-top: 10px;
+}
+
+.lancha {
+    flex-direction: column;
+    width: 100%;
+}
+
+.lancha input {
+    margin-top: 15px;
+}
+
+.email {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.telefono {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 20px 0px 20px;
+}
+
+.links input {
+    margin: 10px;
+    width: 100%;
+}
+
+.links p {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.links p b {
+    font-size: 10px;
+}
+
+.total {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.links span {
+    width: 150px;
+}
+
+.link-list {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+input {
+    /*border: 1px solid #00246c;*/
+    border: none;
+    margin-top: 5px 10px;
+    padding: 17px 5px;
+    width: 80%;
+    height: 25px;
+    background-color: #eceff3;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select {
+    /*border: 1px solid #00246c;*/
+    visibility: visible;
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    background-color: #eceff3;
+    padding: 10px 5px;
+    width: 80%;
+    margin-top: 10px;
+    color: #888;
+}
+
+input:focus {
+    border-radius: 3px;
+    outline: 2px solid 00246c;
+    transition: all 0.2s;
+}
+
+.item p {
+    color: #00246c;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+}
+
+.item span {
+    color: #00246c;
+    text-transform: uppercase;
+}
+
+.price {
+    margin: 0px 0;
+}
+
+h1 {
+    color: #00246c;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-top: 10px;
+    color: #31a3c6;
+    text-transform: uppercase;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0 20px 0;
+    width: 200px;
+    height: auto;
+    align-items: center;
+}
+
+.btn button {
+    background-color: #00246c;
+    width: 80%;
+    color: white;
+    border: none;
+    height: 50px;
+    transition: all 0.2s;
+}
+
+.btn button:hover {
+    background-color: #31a3c6;
+    border-radius: 5px;
+}
+
+@media (max-width: 450px) {
+    form {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .item {
+        width: 100%;
+        margin: 10px 0px
+    }
+    input {
+        width: 90%;
+    }
+    .link-list {
+        width: 100%;
+    }
+    .datos {
+        width: 100%;
+    }
+    select {
+        border: 1px #fff solid;
+        width: 90%;
+    }
+}
