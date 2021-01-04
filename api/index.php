@@ -109,7 +109,7 @@
             <h2>¡Cotiza tu embarcación!</h2>
         </div>
 
-        <form action="correo.php" method="POST">
+        <form method="POST">
 
 
             <div class="item datos">
